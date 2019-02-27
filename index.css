@@ -13,56 +13,10 @@ html, body{
     background: #FF0000;
 }
 
-textarea{
+#codebox textarea{
     color: white;
     position: absolute;
     top: 0px;
-}
-
-#menubar{
-    height: 20px;
-    top: -20px;
-    
-}
-#menubar ul{
-    list-style-type: none;
-}
-
-#menubar li{
-    float: left;
-    text-decoration: none;
-    background-color: white;
-    color: blue;
-    padding-bottom: 20px;
-}
-
-#newdropdown{
-    display: none;
-    position: relative;
-    font-size: 10px;
-    width: 35px;
-    margin: 0px;
-    padding-bottom: 20px;
-    top: 0px;
-}
-
-#newdropdown button{
-    border: 1px solid black;
-    width: 35px;
-    height: 20px;
-    font-size: 10px;
-    top: 0px;
-}
-
-#menubar li:hover #newdropdown{
-    background-color: black;
-    color: red;
-    display: inline-block;
-}
-
-#newdropdown:hover{
-    display: inline-block;
-    font-size: 5px;
 }
 
 #codebox{
@@ -76,6 +30,7 @@ textarea{
     resize: none;
     position: absolute;
     left: 35px;
+    top: 0px;
     font-size: 15px;
 }
 
