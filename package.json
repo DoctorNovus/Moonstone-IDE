@@ -1,0 +1,16 @@
+{
+  "name": "moonstone-ide",
+  "version": "1.0.0",
+  "description": "A Basic Editor made by Hiro",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "npm i electron && npm i electron-packager && npm i asar",
+    "build": "electron-packager . Moonstone IDE --overwrite"
+  },
+  "author": "Hiro#7323",
+  "license": "MIT",
+  "devDependencies": {
+
+  }
+}
