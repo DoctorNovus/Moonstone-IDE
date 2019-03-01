@@ -1,7 +1,7 @@
 html, body{
-    color: white;
+    color: cyan;
     overflow: hidden;
-    background-color: grey;
+    background-color: rgb(53, 53, 53);
 }
 
 ::-webkit-scrollbar {
@@ -14,7 +14,7 @@ html, body{
 }
 
 #codebox textarea{
-    color: white;
+    color: cyan;
     position: absolute;
     top: 0px;
 }
@@ -25,20 +25,22 @@ html, body{
 
 
 #fileContent{
-    overflow: auto;
-    background-color: blue;
+    overflow-y: scroll;
+    background-color: rgb(53, 53, 53);
     resize: none;
     position: absolute;
     left: 35px;
     top: 0px;
     font-size: 15px;
+    color: rgb(32, 167, 167);
 }
 
 #lineCount{
-    overflow: auto;
-    background-color: blue;
+    overflow-y: scroll;
+    background-color: rgb(53, 53, 53);
     resize: none;
     position: absolute;
     overflow-y: scroll;
     font-size: 15px;
+    color: rgb(32, 167, 167);
 }

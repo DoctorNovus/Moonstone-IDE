@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "install": "npm i electron && npm i electron-packager && npm i asar",
-    "build": "electron-packager . Moonstone IDE --overwrite"
+    "build": "electron-packager . --platform=win32 --arch=x64 moonstone-ide"
   },
   "author": "Hiro#7323",
   "license": "MIT",
@@ -14,6 +14,8 @@
   "dependencies": {
     "asar": "^1.0.0",
     "electron": "^4.0.6",
-    "electron-packager": "^13.1.0"
+    "electron-packager": "^13.1.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-winstaller": "^2.7.0"
   }
 }
